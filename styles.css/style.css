@@ -222,7 +222,7 @@ font-size: 9px;
     /* background: rgba(255, 255, 255, 0.15); */
     /* border: 1px 0px solid white; */
  }
- .list-fotter{
+ .rights-fotter{
     display: flex;
     justify-content: space-between;
     background-color: #070211;
