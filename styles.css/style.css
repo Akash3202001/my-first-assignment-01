@@ -116,60 +116,81 @@ text-transform: capitalize;
 
 
 }
-.what{
-    color: #070211;
-font-family: Inter;
-font-size: 10px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.sale{
+.offer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+  }
+  .offer-div-2{
     color: #F00;
-}
-.dolor{
-    color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
+font-size: 9px;
 
-
-}
-.rectangle{
-    margin: 64px 0px 0px auto;
-    width: 429px;
-height: 433px;
-flex-shrink: 0;
-
-}
-.group-44{
-    color: #FFF;
-    margin: 0px auto auto auto;
-
-}
-.gifts{
+  }
+  .offer-img-1 {
+    border: 7px solid red;
+    border-radius: 50%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .offer-img-1 img {
+    width: 200px;
+  }
+  .offer-img-2024{
     color: #F00;
-font-family: Inter;
-font-size: 10px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.awesome{
-    color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
-}
-.sed{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-}
+  }
+  .offer-img-2 {
+    width: 100px;
+  }
+  
+  .sale-div-1 {
+    text-align: center;
+  }
+  .sale-div-2{
+    color: #F00;     
+  }
+  .sale-images {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .sale-img-1 {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  .sale-img-2 {
+    margin-left: -590px;
+    height: 100%;
+    
+  }
+  
+  .portfolio-images{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+  }
+  .sale-images-3{
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .group-61{
+    background: rgba(255, 0, 0, 0.05);
+        text-align: center;
+        
+  }
+  .sub{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+  }
+  .gig-street{
+    display: flex;
+  }
