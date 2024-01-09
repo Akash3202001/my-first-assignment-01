@@ -25,6 +25,7 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-size: 72;
 }
 .category{
     text-align: center;
@@ -194,4 +195,37 @@ font-size: 9px;
   .gig-street{
     display: flex;
   }
-  
+  footer{
+    background-color: #070211;
+    margin-top: 120px;
+}
+ .footer-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #070211;
+    margin-top: 120px;
+    padding: 50px;
+ }
+ .boss-1{
+    color: #fff;
+    margin-top: 40px;
+ }
+  .boss-2{
+    color: #fff;
+    margin-top: 40px;
+ } 
+ .boss-3{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: #070211;
+    /* background: rgba(255, 255, 255, 0.15); */
+    /* border: 1px 0px solid white; */
+ }
+ .list-fotter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #070211;
+    color: #fff;
+    padding: 50px;
+ }
